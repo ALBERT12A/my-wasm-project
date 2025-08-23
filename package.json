@@ -1,0 +1,12 @@
+{
+  "name": "my-wasm-project",
+  "version": "1.0.0",
+  "description": "A simple AssemblyScript WebAssembly project",
+  "scripts": {
+    "asbuild": "mkdir -p build && asc assembly/index.ts --config asconfig.json --target release",
+    "asbuild:debug": "mkdir -p build && asc assembly/index.ts --config asconfig.json --target debug"
+  },
+  "devDependencies": {
+    "assemblyscript": "^0.27.0"
+  }
+}
