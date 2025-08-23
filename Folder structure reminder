@@ -1,0 +1,10 @@
+my-wasm-project/
+│
+├── assembly/
+│   └── index.ts
+│
+├── package.json
+├── asconfig.json
+└── .github/
+    └── workflows/
+        └── build.yml
