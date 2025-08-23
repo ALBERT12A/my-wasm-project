@@ -1,0 +1,20 @@
+{
+  "targets": {
+    "debug": {
+      "outFile": "build/debug.wasm",
+      "optimizeLevel": 0,
+      "shrinkLevel": 0,
+      "debug": true
+    },
+    "release": {
+      "outFile": "build/release.wasm",
+      "optimizeLevel": 3,
+      "shrinkLevel": 1,
+      "converge": true,
+      "noAssert": true
+    }
+  },
+  "options": {
+    "bindings": "raw"
+  }
+}
